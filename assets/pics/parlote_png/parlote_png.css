@@ -1,0 +1,26 @@
+.parlote_png {
+    width: 146.25px;
+    height: 192px;
+    background: url('parlote_visages.png') left center no-repeat;
+}
+
+.parlote_png1 {
+    width: 146.25px;
+    height: 192px;
+    background: url('parlote_visages.png') left center no-repeat;
+    background-position: -146.25px;
+}
+
+.parlote_png2 {
+    width: 146.25px;
+    height: 192px;
+    background: url('parlote_visages.png') left center no-repeat;
+    background-position: -294.5px;
+}
+
+.parlote_png3 {
+    width: 146.25px;
+    height: 192px;
+    background: url('parlote_visages.png') left center no-repeat;
+    background-position: -441.75px;
+}

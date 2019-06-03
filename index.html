@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="icon" href="assets/pics/face/5.png" />
+
+    <meta charset="UTF-8">
+    <title>Parlote4</title>
+
+    <link rel="stylesheet" href="assets/css/parlote.css">
+    <link rel="stylesheet" href="assets/js/colorbox/colorbox.css">
+    <link rel="stylesheet" href="assets/pics/parlote_png/parlote_png.css">
+    <link rel="stylesheet" href="assets/pics/face/face.css">
+    <link rel="stylesheet" href="assets/pics/BaseMoche/tete_moche.css">
+
+
+    <link rel="stylesheet" href="assets/jquery-ui-1.12.1/jquery-ui.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="assets/jquery-ui-1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function() {
+            $("#infos").dialog();
+        });
+    </script>
+</head>
+
+<body onload="setcanvas()">
+
+
+    <div id="infos" class="shadow-sm p-3 mb-5 bg-white rounded" title="Bienvenue !"></div>
+
+
+    <div class="cadre"></div>
+    <div id="bougeable">
+        <canvas id="tete" width="200" height="200"></canvas>
+        <canvas id="bouche_zéro" width="200" height="200"></canvas>
+        <canvas id="bouche" width="200" height="200"></canvas>
+    </div>
+
+    <div class="cadre">
+        <div id="generate" class="inline"></div>
+    </div>
+
+
+    <div class="cadre">
+        <div id="parlote_character_move">
+            <div id="parlote_character" class="chara_contain">
+            </div>
+        </div>
+    </div>
+
+    <div class="cadre">
+        <div id="parlote_png_move">
+            <div class="parlote_png"></div>
+        </div>
+    </div>
+
+    <div class="colorbody" id="colorbody">
+        <button type="button" id="colorbgbutton" onclick="setColor()"><span>Changer la couleur de fond</span>         
+            <input type="color" id="colorPicker" name="colorPicker" value="#0000ff" />
+        </button>
+    </div>
+
+
+    <script src="assets/js/page_build/entity.js"></script>
+
+
+    <script src="assets/js/canvas/entity.js"></script>
+    <script src="assets/js/canvas/move.js"></script>
+
+
+    <script src="assets/pics/BaseMoche/js/frames.js"></script>
+    <script src="assets/pics/BaseMoche/js/entity.js"></script>
+    <script src="assets/pics/BaseMoche/js/move.js"></script>
+
+
+    <script src="assets/pics/face/js/frames.js"></script>
+    <script src="assets/pics/face/js/entity.js"></script>
+    <script src="assets/pics/face/js/move.js"></script>
+
+    <script src="assets/pics/parlote_png/parlote_png.js"></script>
+
+    <script src="assets/js/colorbox/move.js"></script>
+</body>
