@@ -1,6 +1,6 @@
-document.getElementById("infos").innerHTML = "<p>Bienvenue dans cette troisième version de \"Parlote\"! </p>";
-document.getElementById("infos").innerHTML += "<p>Dzénetan Massart vous propose trois bases pour créer un personnage (Canvas & Image) qui parle en fonction de l'";
-document.getElementById("infos").innerHTML += "intensité du son dans votre microphone! </p><p> Le répertoire Github associé se trouve ici: <a href=\"https://github.com/DzenetanMassart/Parlote3\">https://github.com/DzenetanMassart/Parlote3<a>";
+document.getElementById("infos").innerHTML = "<p>Bienvenue dans cette quatrième version de \"Parlote\"! </p>";
+document.getElementById("infos").innerHTML += "<p>Dzénetan Massart vous propose quatre bases pour créer un personnage (Canvas & Image) qui parle en fonction de l'";
+document.getElementById("infos").innerHTML += "intensité du son dans votre microphone! </p><p> Le répertoire Github associé se trouve ici: <a href=\"https://github.com/DzenetanMassart/Parlote4\">https://github.com/DzenetanMassart/Parlote4<a>";
 
 
 
