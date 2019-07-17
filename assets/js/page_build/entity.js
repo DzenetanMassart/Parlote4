@@ -43,9 +43,9 @@ navigator.mediaDevices.getUserMedia({ audio: true, video: false })
                 tete.style.transform = "scale(" + (Math.round(average) / 100 + 1) + "," + (Math.round(average) / 500 + 1) + ")"
             }
 
-            document.getElementById("infos").innerHTML = "<p>Bienvenue dans cette troisième version de \"Parlote\"! </p>";
+            document.getElementById("infos").innerHTML = "<p>Bienvenue dans cette quatrième version de \"Parlote\"! </p>";
             document.getElementById("infos").innerHTML += "<p>Dzénetan Massart vous propose trois bases pour créer un personnage (Canvas & Image) qui parle en fonction de l'intensité du son dans votre microphone ! </p>";
-            document.getElementById("infos").innerHTML += "<p> Le répertoire Github associé se trouve ici: <a href=\"https://github.com/DzenetanMassart/Parlote3\">https://github.com/DzenetanMassart/Parlote3<a></p>";
+            document.getElementById("infos").innerHTML += "<p> Le répertoire Github associé se trouve ici: <a href=\"https://github.com/DzenetanMassart/Parlote3\">https://github.com/DzenetanMassart/Parlote4<a></p>";
             document.getElementById("infos").innerHTML += "<p>L'intensité du son (en décibels) est égale à: </p><p class=\"average\"> " + average + "</p>";
         }
     })
